@@ -1,0 +1,74 @@
+.container {
+    width: 450px;
+    background: #ccff00;
+    border: 2px solid #556b2f;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+table.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table.menu-table th {
+    background: #00ccff;
+    color: #000080;
+    border: 1px solid #708090;
+    padding: 5px;
+}
+
+table.menu-table td {
+    border: 1px solid #708090;
+    padding: 5px;
+    vertical-align: top;
+}
+
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.radio-cell {
+    background: #ccff00;
+}
+
+.btn-center {
+    text-align: center;
+    margin: 10px 0;
+}
+
+table.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table.bill-table th {
+    background: #00ccff;
+    color: #000080;
+    border: 1px solid #000080;
+    padding: 4px;
+}
+
+table.bill-table td {
+    border: 1px solid #000080;
+    padding: 4px 8px;
+}
+
+.col-price {
+    width: 120px;
+}
+
+.total-row {
+    font-weight: bold;
+}
