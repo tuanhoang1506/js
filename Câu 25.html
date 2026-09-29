@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 25</title>
+    <link rel="stylesheet" href="cau25.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">THỰC ĐƠN</div>
+        <table class="menu-table">
+            <tr>
+                <th>Thức ăn</th>
+                <th>Nước uống</th>
+                <th>Thời điểm</th>
+            </tr>
+            <tr>
+                <td>
+                    <select id="thucAn" multiple size="7">
+                        <option value="20000">Bún bò</option>
+                        <option value="18000">Hủ tiếu</option>
+                        <option value="17000">Bánh canh</option>
+                        <option value="19000">Phở bò</option>
+                        <option value="15000">Nuôi</option>
+                        <option value="12000">Bánh mì thịt</option>
+                        <option value="15000">Bánh cuốn</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="nuocUong" multiple size="7">
+                        <option value="12000">Cà phê đá</option>
+                        <option value="15000">Cà phê sữa đá</option>
+                        <option value="13000">Chanh dây</option>
+                        <option value="12000">Chanh muối</option>
+                        <option value="14000">Xí muội</option>
+                        <option value="13000">Sữa tươi</option>
+                        <option value="17000">Cam vắt</option>
+                    </select>
+                </td>
+                <td class="radio-cell">
+                    <label><input type="radio" name="thoiDiem" value="ngay" checked> Ban ngày</label><br><br>
+                    <label><input type="radio" name="thoiDiem" value="dem"> Ban đêm</label>
+                </td>
+            </tr>
+        </table>
+
+        <div class="btn-center">
+            <button onclick="tinhTien()">Tính tiền</button>
+        </div>
+
+        <table class="bill-table">
+            <thead>
+                <tr>
+                    <th>Các món đã dùng</th>
+                    <th class="col-price">Tiền</th>
+                </tr>
+            </thead>
+            <tbody id="billBody"></tbody>
+            <tfoot>
+                <tr class="total-row">
+                    <td>Tổng tiền</td>
+                    <td id="tongTien">0 đồng</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="cau25.js"></script>
+</body>
+</html>
