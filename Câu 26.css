@@ -1,0 +1,35 @@
+.can-chi-box {
+    border: 2px solid #5cdbd3;
+    width: 450px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background: #feffe6;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.content-table {
+    width: 100%;
+}
+
+.content-table input {
+    padding: 4px;
+    width: 140px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-arrow {
+    border-radius: 12px;
+    padding: 3px 15px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    background: #f0f0f0;
+}
