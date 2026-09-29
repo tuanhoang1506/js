@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    background-color: #ffd8d8;
+    border: 2px solid #00008b;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #00008b;
+    padding: 8px;
+}
+
+.input-row {
+    white-space: nowrap;
+}
+
+#ngay {
+    width: 50px;
+}
+
+#thang {
+    width: 45px;
+}
+
+#nam {
+    width: 65px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#ketQuaThu {
+    font-size: 16px;
+    min-height: 25px;
+}
+
+.btn-sub {
+    border-radius: 10px;
+    padding: 3px 12px;
+    background: #e6f2ff;
+    border: 1px solid #708090;
+    cursor: pointer;
+}
