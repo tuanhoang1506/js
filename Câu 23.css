@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    background-color: #ffd8a8;
+    border: 2px solid #00008b;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #00008b;
+    padding: 6px 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#luong, #luongThang {
+    width: 250px;
+}
+
+#heSo {
+    width: 70px;
+}
+
+.btn-calc {
+    border-radius: 12px;
+    border: 1px solid #708090;
+    padding: 3px 15px;
+    cursor: pointer;
+    background: #e6f0fa;
+}
